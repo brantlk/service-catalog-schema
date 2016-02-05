@@ -28,12 +28,20 @@ V2_SCHEMA_JSON = r"""
           "minlength": 1
         },
         "name": {"type": "string", "minlength": 1},
-        "endpoints_links": {"type": "array", "maxItems": 0},
+        "endpoints_links": {
+          "description": "This is not present in the HP public cloud catalog.",
+          "type": "array",
+          "maxItems": 0
+        },
         "endpoints": {
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
+              "publicURL": {
+                "description": "The URL may contain the version, project (tenant) ID, or account ID.",
+                "type": "string"
+               },
               "adminURL": {
                 "description": "The URL may contain the version, project (tenant) ID, or account ID.",
                 "type": "string"
@@ -42,20 +50,43 @@ V2_SCHEMA_JSON = r"""
                 "description": "The URL may contain the version, project (tenant) ID, or account ID.",
                 "type": "string"
               },
-              "publicURL": {
-                "description": "The URL may contain the version, project (tenant) ID, or account ID.",
-                "type": "string"
-               },
               "region": {"type": "string"},
-              "id": {"type": "string"}
+              "id": {
+                "description": "This is present in Keystone, but not in HP public cloud or Internap. An ID.",
+                "type": "string"
+              },
+              "publicURL2": {
+                "description": "This is present in HP public cloud catalog. A URL.",
+                "type": "string"
+              },
+              "tenantId": {
+                "description": "This is present in HP, RAX public cloud catalog. An ID.",
+                "type": "string"
+              },
+              "versionID": {
+                "description": "This is present in HP, RAX public cloud catalog, like 2.0.",
+                "type": "string"
+              },
+              "versionInfo": {
+                "description": "This is present in HP, RAX public cloud catalog. A URL.",
+                "type": "string"
+              },
+              "versionList": {
+                "description": "This is present in HP, RAX public cloud catalog. A URL.",
+                "type": "string"
+              }
             },
-            "required": [
-              "adminURL", "internalURL", "publicURL", "region", "id"],
-            "additionalProperties": false
+            "required": ["publicURL", "region"],
+            "optional": [
+              "id",
+              "adminURL", "internalURL", "publicURL2", "tenantId",
+              "versionID", "versionInfo", "versionList"],
+            "additionalProperties": true
           }
         }
     },
-    "required": ["type", "name", "endpoints_links", "endpoints"],
+    "required": ["type", "name", "endpoints"],
+    "optional": ["endpoints_links"],
     "additionalProperties": false
   }
 }
@@ -127,10 +158,13 @@ V3_SCHEMA_JSON = r"""
               "description": "The URL may contain the version, project (tenant) ID, or account ID.",
               "type": "string"
             },
-            "id": {"type": "string"}
+            "id": {
+              "description": "Not present on UnitedStack cloud. An ID.",
+              "type": "string"
+            }
           },
-          "required": ["interface", "region", "url", "id"],
-          "optional": ["region_id"],
+          "required": ["interface", "region", "url"],
+          "optional": ["region_id", "id"],
           "additionalProperties": false
         }
       }
