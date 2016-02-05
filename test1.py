@@ -202,7 +202,7 @@ SAMPLE_NG_CATALOG_JSON = """
         "interface": "public",
         "region": "RegionOne",
         "region_id": "RegionOne",
-        "url": "http://server/openstack/identity",
+        "url": "https://server/openstack/identity",
         "id": "1b4b82bb39b6487b8265748a6142104f"
       }
     ]
