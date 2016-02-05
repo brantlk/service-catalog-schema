@@ -5,7 +5,6 @@ import jsonschema
 
 
 V2_SCHEMA_JSON = """
-
 {
   "title": "Identity V2.0 Service Catalog",
   "type": "array",
@@ -34,7 +33,6 @@ V2_SCHEMA_JSON = """
     "required": ["type", "name", "endpoints_links", "endpoints"]
   }
 }
-
 """
 
 
@@ -42,7 +40,6 @@ V2_SCHEMA = json.loads(V2_SCHEMA_JSON)
 
 
 SAMPLE_V2_CATALOG_JSON = """
-
 {
   "serviceCatalog": [
     {
@@ -61,10 +58,18 @@ SAMPLE_V2_CATALOG_JSON = """
     }
   ]
 }
-
 """
 
 SAMPLE_V2_CATALOG = json.loads(SAMPLE_V2_CATALOG_JSON)
 
 
 jsonschema.validate(SAMPLE_V2_CATALOG['serviceCatalog'], V2_SCHEMA)
+
+
+V3_SCHEMA_JSON = """
+{
+   "title": "Identity V3 Service Catalog"
+}
+"""
+
+V3_SCHEMA = json.loads(V2_SCHEMA_JSON)
