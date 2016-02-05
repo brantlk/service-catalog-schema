@@ -1,0 +1,128 @@
+{
+    "serviceCatalog": [{
+      "endpoints": [
+        {
+          "adminURL": "https://api.van1.auro.io:8774/v2/6466979d66cf4006a7a634abc18fcb72",
+          "id": "a0082decbd3742b39242937c4ebd8032",
+          "internalURL": "https://api.van1.auro.io:8774/v2/6466979d66cf4006a7a634abc18fcb72",
+          "publicURL": "https://api.van1.auro.io:8774/v2/6466979d66cf4006a7a634abc18fcb72",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api.van1.auro.io:9696",
+          "id": "162af64bdfb44db5ae7e76d75dbf499d",
+          "internalURL": "https://api.van1.auro.io:9696",
+          "publicURL": "https://api.van1.auro.io:9696",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api-internal.van1.auro.io:8776/v2/6466979d66cf4006a7a634abc18fcb72",
+          "id": "42733f51da41447d8ee1445c3c3659dd",
+          "internalURL": "https://api-internal.van1.auro.io:8776/v2/6466979d66cf4006a7a634abc18fcb72",
+          "publicURL": "https://api.van1.auro.io:8776/v2/6466979d66cf4006a7a634abc18fcb72",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api.van1.auro.io:9292",
+          "id": "7252da20545246ee95e5884f455665f3",
+          "internalURL": "https://api.van1.auro.io:9292",
+          "publicURL": "https://api.van1.auro.io:9292",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api-internal.van1.auro.io:8000/v2/6466979d66cf4006a7a634abc18fcb72",
+          "id": "07f4e48eef37405987d6e64da9c300e5",
+          "internalURL": "https://api-internal.van1.auro.io:8000/v2/6466979d66cf4006a7a634abc18fcb72",
+          "publicURL": "https://api.van1.auro.io:8000/v2/6466979d66cf4006a7a634abc18fcb72",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat-cfn",
+      "type": "cloudformation"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api-internal.van1.auro.io:8776/v1/6466979d66cf4006a7a634abc18fcb72",
+          "id": "00f8a565c483433ebc2fe59bf6b7eb1d",
+          "internalURL": "https://api-internal.van1.auro.io:8776/v1/6466979d66cf4006a7a634abc18fcb72",
+          "publicURL": "https://api.van1.auro.io:8776/v1/6466979d66cf4006a7a634abc18fcb72",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api-internal.van1.auro.io:8004/v1/6466979d66cf4006a7a634abc18fcb72",
+          "id": "06855b1731ff493aaf3ed0ebf5cf015e",
+          "internalURL": "https://api-internal.van1.auro.io:8004/v1/6466979d66cf4006a7a634abc18fcb72",
+          "publicURL": "https://api.van1.auro.io:8004/v1/6466979d66cf4006a7a634abc18fcb72",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://s3-internal.van1.auro.io/v1",
+          "id": "3a937acfc32241f0904d709662f5c9b1",
+          "internalURL": "https://s3-internal.van1.auro.io/v1/AUTH_6466979d66cf4006a7a634abc18fcb72",
+          "publicURL": "https://s3.van1.auro.io/v1/AUTH_6466979d66cf4006a7a634abc18fcb72",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://api.van1.auro.io:35357/v2.0",
+          "id": "36bd92d429e54076823b7d23c0ca51ac",
+          "internalURL": "https://api-internal.van1.auro.io:5000/v2.0",
+          "publicURL": "https://api.van1.auro.io:5000/v2.0",
+          "region": "van1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}

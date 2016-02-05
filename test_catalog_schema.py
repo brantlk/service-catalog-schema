@@ -21,6 +21,7 @@ SAMPLE_v2_CATALOGS = [
     'keystone',
     'rackspace',
     'rdo',
+    'auro',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
