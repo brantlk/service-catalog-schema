@@ -11,7 +11,11 @@ V2_SCHEMA_JSON = """
   "items": {
     "type": "object",
     "properties": {
-        "type": {"type": "string", "minlength": 1},
+        "type": {
+          "description": "Service type: identity, volume, compute",
+          "type": "string",
+          "minlength": 1
+        },
         "name": {"type": "string", "minlength": 1},
         "endpoints_links": {"type": "array", "maxItems": 0},
         "endpoints": {
@@ -73,7 +77,11 @@ V3_SCHEMA_JSON = """
   "items": {
     "type": "object",
     "properties": {
-      "type": {"type": "string", "minLength": 1},
+      "type": {
+        "description": "Service type: identity, volume, compute",
+        "type": "string",
+        "minLength": 1
+      },
       "name": {"type": "string", "minLength": 1},
       "id": {"type": "string", "minLength": 1},
       "endpoints": {
@@ -148,7 +156,11 @@ NG_SCHEMA_JSON = """
   "items": {
     "type": "object",
     "properties": {
-      "type": {"type": "string", "minLength": 1},
+      "type": {
+        "description": "Service type: identity, volume, compute",
+        "type": "string",
+        "minLength": 1
+      },
       "name": {"type": "string", "minLength": 1},
       "id": {"type": "string", "minLength": 1},
       "endpoints": {
