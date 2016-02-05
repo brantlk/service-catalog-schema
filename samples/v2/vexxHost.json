@@ -1,0 +1,108 @@
+{"serviceCatalog": [
+    {
+      "endpoints": [
+        {
+          "id": "4d38fa91197e4712a2f2d3f89fcd7dad",
+          "publicURL": "https://compute-ca-ymq-1.vexxhost.net/v2/db92b20496ae4fbda850a689ea9d563f",
+          "region": "ca-ymq-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "7a095734e4984cc7b8ac581aa6131f23",
+          "publicURL": "https://network-ca-ymq-1.vexxhost.net",
+          "region": "ca-ymq-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "94a34c2f6bbc4479b95d4150c3107f3b",
+          "publicURL": "https://database-ca-ymq-1.vexxhost.net/v1.0/db92b20496ae4fbda850a689ea9d563f",
+          "region": "ca-ymq-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "trove",
+      "type": "database"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "8842c03d2c51449ebf9ff36778cf17c1",
+          "publicURL": "https://image-ca-ymq-1.vexxhost.net",
+          "region": "ca-ymq-1"
+        },
+        {
+          "id": "168796e6eff84874a187e7ab76c43a36",
+          "publicURL": "https://image-na-east-1.vexxhost.net",
+          "region": "na-east-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "128a2f46b17b484ab98b47611edad684",
+          "publicURL": "https://dns.vexxhost.net/v1",
+          "region": "ca-ymq-1"
+        },
+        {
+          "id": "b7ed4ea710dd4b80ad2840adcdb97ab7",
+          "publicURL": "https://dns.vexxhost.net/v1",
+          "region": "na-east-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "designate",
+      "type": "dns"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "afee3d94cd514e56a9df4f9d1e977eda",
+          "publicURL": "https://storage.vexxhost.net/v1/db92b20496ae4fbda850a689ea9d563f",
+          "region": "ca-ymq-1"
+        },
+        {
+          "id": "42b84a744bb44e3898cfdafb397a6efb",
+          "publicURL": "https://storage.vexxhost.net/v1/db92b20496ae4fbda850a689ea9d563f",
+          "region": "na-east-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://auth.vexxhost.net:35357/v2.0",
+          "id": "8df18f47fcdc4c348d521d4724a5b7ac",
+          "publicURL": "https://auth.vexxhost.net/v2.0",
+          "region": "ca-ymq-1"
+        },
+        {
+          "adminURL": "http://auth.vexxhost.net:35357/v2.0",
+          "id": "709036661e5b405489aa3a19da3dc4cb",
+          "publicURL": "https://auth.vexxhost.net/v2.0",
+          "region": "na-east-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}
