@@ -72,4 +72,43 @@ V3_SCHEMA_JSON = """
 }
 """
 
-V3_SCHEMA = json.loads(V2_SCHEMA_JSON)
+V3_SCHEMA = json.loads(V3_SCHEMA_JSON)
+
+
+SAMPLE_V3_CATALOG_JSON = """
+{"catalog": [
+  {
+    "type": "identity",
+    "name": "keystone",
+    "id": "cdc3ae8870af44698e722547d660355b",
+    "endpoints": [
+      {
+        "interface": "internal",
+        "region": "RegionOne",
+        "region_id": "RegionOne",
+        "url": "http://192.168.122.239:5000/v3",
+        "id": "0e0b3d009aa04da0aee163e034dd6190"
+      },
+      {
+        "interface": "admin",
+        "region": "RegionOne",
+        "region_id": "RegionOne",
+        "url": "http://192.168.122.239:35357/v3",
+        "id": "1024e233d9a4460d83292f151b405cf5"
+      },
+      {
+        "interface": "public",
+        "region": "RegionOne",
+        "region_id": "RegionOne",
+        "url": "http://192.168.122.239:5000/v3",
+        "id": "1b4b82bb39b6487b8265748a6142104f"
+      }
+    ]
+  }
+] }
+"""
+
+SAMPLE_V3_CATALOG = json.loads(SAMPLE_V3_CATALOG_JSON)
+
+
+jsonschema.validate(SAMPLE_V3_CATALOG['catalog'], V3_SCHEMA)
