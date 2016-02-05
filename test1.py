@@ -23,9 +23,18 @@ V2_SCHEMA_JSON = """
           "items": {
             "type": "object",
             "properties": {
-              "adminURL": {"type": "string"},
-              "internalURL": {"type": "string"},
-              "publicURL": {"type": "string"},
+              "adminURL": {
+                "description": "The URL may contain the version, project (tenant) ID, or account ID.",
+                "type": "string"
+              },
+              "internalURL": {
+                "description": "The URL may contain the version, project (tenant) ID, or account ID.",
+                "type": "string"
+              },
+              "publicURL": {
+                "description": "The URL may contain the version, project (tenant) ID, or account ID.",
+                "type": "string"
+               },
               "region": {"type": "string"},
               "id": {"type": "string"}
             },
@@ -95,7 +104,10 @@ V3_SCHEMA_JSON = """
             },
             "region": {"type": "string"},
             "region_id": {"type": "string"},
-            "url": {"type": "string"},
+            "url": {
+              "description": "The URL may contain the version, project (tenant) ID, or account ID.",
+              "type": "string"
+            },
             "id": {"type": "string"}
           },
           "required": ["interface", "region", "region_id", "url", "id"]
@@ -174,7 +186,10 @@ NG_SCHEMA_JSON = """
             },
             "region": {"type": "string"},
             "region_id": {"type": "string"},
-            "url": {"type": "string"},
+            "url": {
+              "description": "The URL does not contain the version, project (tenant) ID, or account ID.",
+              "type": "string"
+            },
             "id": {"type": "string"}
           },
           "required": ["interface", "region", "region_id", "url", "id"]
