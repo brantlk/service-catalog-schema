@@ -34,6 +34,7 @@ V3_SCHEMA = json.load(open('schemas/v3.json'))
 SAMPLE_V3_CATALOGS = [
     'keystone',
     'mirantis',
+    'citycloud',
 ]
 
 for s in SAMPLE_V3_CATALOGS:

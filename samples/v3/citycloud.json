@@ -1,0 +1,673 @@
+{ "catalog":
+[{
+      "endpoints": [
+        {
+          "id": "0d48ab0135b94fc7aea4d8b34a2631bc",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "29b3c47b619341788280b4e21f8cc3c0",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "72917f0c0e2646c5800283ec8332cf64",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "810931a9f42a4a769de176e9c3e27f5e",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "97f705511c364357adc6cd0ffd142079",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "af99e3da29e446d19f91d3d22e22708a",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "b4e9a761ad3a4ab28695e30f6a5377bd",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "e7045675056c4fa7af80450f6deffbc1",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "eaa2f86462684bc88304ab180f29c84a",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:8004/v1/65222a4d09ea4c68934fa1028c77f394"
+        }
+      ],
+      "id": "1e11b02586f44b1990a2d206f5a1776c",
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [],
+      "id": "28e15f2a8de143e69f4604b6eb573088",
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "04a83471d8b44ddc8f7047416a6ea444",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://10.101.20.2:8777"
+        },
+        {
+          "id": "2c250de241ad47cba1efcbaa2675b8f0",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://10.101.0.2:8777"
+        },
+        {
+          "id": "2dc119a6de014e70b67ab16851b9f4a6",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://10.101.10.2:8777"
+        },
+        {
+          "id": "524103ae4b5f41588a2b35f9a81238b9",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://10.101.20.2:8777"
+        },
+        {
+          "id": "67db6427adf744f5acd93a8e51896118",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://10.101.10.2:8777"
+        },
+        {
+          "id": "71e2d8beb6e34730bb8e3e670ef0125b",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://10.101.20.2:8777"
+        },
+        {
+          "id": "7d1b5376221f4f939bbab6b4f096c2f9",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://10.101.0.2:8777"
+        },
+        {
+          "id": "b99fbe14755943a7aa502325d845dda1",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://10.101.0.2:8777"
+        },
+        {
+          "id": "f62aea193d48417fa2024418fe85cedf",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://10.101.10.2:8777"
+        }
+      ],
+      "id": "38540af839864f73afabde997487257d",
+      "name": "ceilometer",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "080de79e4a6b419684f872ef0d258425",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.kna1.citycloud.com:35357/v2.0"
+        },
+        {
+          "id": "0a8915903bcc432cadffe6cdec07a843",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://identity1.citycloud.com:5000/v2.0/"
+        },
+        {
+          "id": "246e6f49ec824b828cce582a985714f5",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.kna1.citycloud.com:35357/v2.0"
+        },
+        {
+          "id": "26386b8d0a0444b683a2e4df42f5e12e",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://identity1.citycloud.com:5000/v2.0/"
+        },
+        {
+          "id": "2a457dfdcb2b40828dc7ba2c060d28dd",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:5000/v2.0"
+        },
+        {
+          "id": "3bab91800b8a4bc18acee55a2c19e72d",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://identity1.citycloud.com:5000/v2.0/"
+        },
+        {
+          "id": "cbcb53ba961445479291113b55161314",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.kna1.citycloud.com:35357/v2.0"
+        },
+        {
+          "id": "d7ac257b894c4b88a85f2f59324bc24b",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:35357/v2.0"
+        },
+        {
+          "id": "ed12bc89cf4c42b2824f047f716fed99",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.kna1.citycloud.com:35357/v2.0"
+        }
+      ],
+      "id": "3bee870659db407c8bd5fc449f9a5a54",
+      "name": "keystone",
+      "type": "identity"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "266f2241e45447f8af1bbb51a587a7d9",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "3e7a43497c2b4b2f8dcd1579938c78e3",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "77a167e3b5384975bf5cd559714402dd",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "a2b1a49e2f664b51a93379808111634a",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "a81099af0d1444b485a27b07eb6e87c1",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "e554188e6c1a47498761e5a39ed47e4d",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        }
+      ],
+      "id": "3f21d19bc8a64c93be41ae005fd43ee9",
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "1a69af5e9e4f4a59a10e50bb606dde28",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:8000/v1"
+        },
+        {
+          "id": "2cf89f42ab154621833ea7fd4ea76832",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8000/v1"
+        },
+        {
+          "id": "30b3662572e84afc8b82163f0f729738",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8000/v1"
+        },
+        {
+          "id": "3c6e6244a54c4ba29a5211ba144a52a4",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8000/v1"
+        },
+        {
+          "id": "63354000d4804038814b7ede9d572825",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8000/v1"
+        },
+        {
+          "id": "6bc4fef526244cf09060ca69dcb9157f",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:8000/v1"
+        },
+        {
+          "id": "80b6cca77fe94d81a3ea6f833241fb54",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8000/v1"
+        },
+        {
+          "id": "8bd540637ce644ca8bd346351aae9acf",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:8000/v1"
+        },
+        {
+          "id": "d175a65594634342afad708ebe6aa9be",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8000/v1"
+        }
+      ],
+      "id": "479d2fa28def4bf8a64d3abf6704bc4a",
+      "name": "heat-cfn",
+      "type": "cloudformation"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "17aed5d0ef834fbe905ad5112900573f",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:9696"
+        },
+        {
+          "id": "43db0b78790a49cea95926bf1bdd2437",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:9696"
+        },
+        {
+          "id": "488e1d6d37f54fe793056c24fae71810",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:9696"
+        },
+        {
+          "id": "cb258593d5034ab3a2260c12f8e21f0f",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:9696"
+        },
+        {
+          "id": "d0bfbf349d984daca90eb6d6d743641f",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:9696"
+        },
+        {
+          "id": "d3840a98e36f46138ad17e1e80141539",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:9696"
+        },
+        {
+          "id": "e17997c6958b46a79148d60654f8ea23",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:9696"
+        },
+        {
+          "id": "f2319c15ef8e42279b3ac74eac85535e",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:9696"
+        },
+        {
+          "id": "f2ee22cea30349c196387bdbd24cb749",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:9696"
+        }
+      ],
+      "id": "588061ae255247cd983c587000d805ed",
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "49ef73dda089405797628f02392cb757",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "c03a02f4739c4d22b39ad8a58bb90b86",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "e06465a7d458462fac59067c130be0c2",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8776/v2/65222a4d09ea4c68934fa1028c77f394"
+        }
+      ],
+      "id": "8e22892339ec403e9f6ca7f5716a27c3",
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "00a36ab59a7142b5b4f26a49c79ffee3",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8773/services/Cloud"
+        },
+        {
+          "id": "2072b7a87d8345d5994aa1dccff8d468",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:8773/services/Cloud"
+        },
+        {
+          "id": "3c7119ca40764a3384e3904508775774",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8773/services/Admin"
+        }
+      ],
+      "id": "9610290d966b40a0b12892ab0c4e8b0e",
+      "name": "ec2",
+      "type": "ec2"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "0512b5adf33342229a389b3d1ca9c6b4",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:9292"
+        },
+        {
+          "id": "0a8dc20b67ce4b12baf749dfb911aa60",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:9292"
+        },
+        {
+          "id": "27fe0193ca4347a29d94b84be81a5bee",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:9292"
+        },
+        {
+          "id": "6c7c0c5fc8cb47fc8061db05ca7dacc7",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:9292"
+        },
+        {
+          "id": "70fb016321d749b5bd0edcba13ea2889",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:9292"
+        },
+        {
+          "id": "71b064bcb91644a8a5498ed5ebc15418",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:9292"
+        },
+        {
+          "id": "a07e42ffb7224de09e77d24f09811592",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:9292"
+        },
+        {
+          "id": "b5628090272f4b05a3c541ec968d2ebc",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:9292"
+        },
+        {
+          "id": "e78ce1fdf9484a79818af3a9acfdafc9",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:9292"
+        }
+      ],
+      "id": "b3c118e6575146b59c87f95a5ba7aa18",
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "0389cbd81fd5405e996e1d95c5e84411",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "07440b7f3e854feca3f85817f6d6ff70",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "07c4d621a435497186d114c9b4ea8eb7",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "304fe425eaca445d817da58d3b6d031d",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "6c26ae46eb7c4930b150bd9cc2b1b977",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "8927866bc1a145f28de0d4e9d7d7cac2",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "bccec111be21496eb8c79f62cc4e5452",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "ea9f325b7b044e5fab225dd855f5f105",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "f03dfbb64d4e46ff95ec1744cb89b340",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8774/v2/65222a4d09ea4c68934fa1028c77f394"
+        }
+      ],
+      "id": "ce4b1ce1fc8548078cadc1713fbd153c",
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "id": "0001b609ed724ad1a6f66c4f58aa9e0f",
+          "interface": "admin",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "18165ee60d04428b80e084c5032ab2f4",
+          "interface": "internal",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "20685a4143ba451dac01572f4a3f2160",
+          "interface": "public",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "https://sto2.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "4b6996b45cf342768a4bf57231cbf5a9",
+          "interface": "admin",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "69afc4e26c964064a78e6add576e3942",
+          "interface": "public",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "https://lon1.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "c69fbc7d332348dfbb0194193ced5026",
+          "interface": "internal",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "http://int.kna1.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "d7995042c45b491fb3a87a2dc08633fc",
+          "interface": "public",
+          "region": "Kna1",
+          "region_id": "Kna1",
+          "url": "https://kna1.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "dfd5c3960c6b4d5d8bc35009c48a051e",
+          "interface": "admin",
+          "region": "Sto2",
+          "region_id": "Sto2",
+          "url": "http://int.sto2.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        },
+        {
+          "id": "f2e197ba11954c998e0d79406eaf7cc5",
+          "interface": "internal",
+          "region": "Lon1",
+          "region_id": "Lon1",
+          "url": "http://int.lon1.citycloud.com:8776/v1/65222a4d09ea4c68934fa1028c77f394"
+        }
+      ],
+      "id": "ed071677a8274dbb95063f2816b175a3",
+      "name": "volume",
+      "type": "volume"
+    }
+]}
