@@ -188,21 +188,21 @@ SAMPLE_NG_CATALOG_JSON = """
         "interface": "internal",
         "region": "RegionOne",
         "region_id": "RegionOne",
-        "url": "http://192.168.122.239:5000/v3",
+        "url": "https://server/openstack/identity",
         "id": "0e0b3d009aa04da0aee163e034dd6190"
       },
       {
         "interface": "admin",
         "region": "RegionOne",
         "region_id": "RegionOne",
-        "url": "http://192.168.122.239:35357/v3",
+        "url": "https://server/openstack/identity_admin",
         "id": "1024e233d9a4460d83292f151b405cf5"
       },
       {
         "interface": "public",
         "region": "RegionOne",
         "region_id": "RegionOne",
-        "url": "http://192.168.122.239:5000/v3",
+        "url": "http://server/openstack/identity",
         "id": "1b4b82bb39b6487b8265748a6142104f"
       }
     ]
