@@ -31,6 +31,7 @@ SAMPLE_v2_CATALOGS = [
     'ovh',
     'rackspace-public',
     'runabove',
+    'ultimum',
 ]
 
 for s in SAMPLE_v2_CATALOGS:

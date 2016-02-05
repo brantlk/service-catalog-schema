@@ -1,0 +1,100 @@
+{"serviceCatalog": [
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:8774/v2",
+          "id": "656cb4140f924940b3f12e7bc57b752b",
+          "internalURL": "http://r1ctrl1:8774/v2/191f87cbb785479a93e76c38c7e9edc7",
+          "publicURL": "https://console.ultimum-cloud.com:8774/v2/191f87cbb785479a93e76c38c7e9edc7",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:9696",
+          "id": "ca54074099994367be5e8c2d3f41113f",
+          "internalURL": "http://r1ctrl1:9696",
+          "publicURL": "https://console.ultimum-cloud.com:9696",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:9292",
+          "id": "035c4436e733490ba4070051f3e04854",
+          "internalURL": "http://r1ctrl1:9292",
+          "publicURL": "https://console.ultimum-cloud.com:9292",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:8777",
+          "id": "2ee413872671480cafd6c282d9881716",
+          "internalURL": "http://r1ctrl1:8777",
+          "publicURL": "http://r1ctrl1:8777",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "ceilometer",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:8776/v1/191f87cbb785479a93e76c38c7e9edc7",
+          "id": "6a5972483485441b99c90932e63f3680",
+          "internalURL": "http://r1ctrl1:8776/v1/191f87cbb785479a93e76c38c7e9edc7",
+          "publicURL": "https://console.ultimum-cloud.com:8776/v1/191f87cbb785479a93e76c38c7e9edc7",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:8004/v1/191f87cbb785479a93e76c38c7e9edc7",
+          "id": "1abb7650544a44089cb512c67f4a669b",
+          "internalURL": "http://r1ctrl1:8004/v1/191f87cbb785479a93e76c38c7e9edc7",
+          "publicURL": "https://console.ultimum-cloud.com:8004/v1/191f87cbb785479a93e76c38c7e9edc7",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://r1ctrl1:35357/v2.0",
+          "id": "6ddba94c07ee435a95768331d12df7f1",
+          "internalURL": "http://r1ctrl1:5000/v2.0",
+          "publicURL": "https://console.ultimum-cloud.com:5000/v2.0",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}
