@@ -20,6 +20,7 @@ SAMPLE_v2_CATALOGS = [
     'devstack',
     'keystone',
     'rackspace',
+    'rdo',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
