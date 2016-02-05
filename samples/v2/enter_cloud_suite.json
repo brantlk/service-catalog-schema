@@ -1,0 +1,310 @@
+{"serviceCatalog": [
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://nova.int.it-mil1.prod.enterecs.net/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "8f984d0eec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://nova.int.it-mil1.prod.enterecs.net/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://nova.it-mil1.entercloudsuite.com/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://nova.int.nl-ams1.prod.enterecs.net/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "4add2a605be84168b373f5785037a66e",
+          "internalURL": "http://nova.int.nl-ams1.prod.enterecs.net/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://nova.nl-ams1.entercloudsuite.com/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://nova.int.de-fra1.prod.enterecs.net/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "9ff5fe3cccaf11e3be45002590db9162",
+          "internalURL": "http://nova.int.de-fra1.prod.enterecs.net/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://nova.de-fra1.entercloudsuite.com/v2/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://neutron.int.it-mil1.prod.enterecs.net/",
+          "id": "9a2e34b9ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://neutron.int.it-mil1.prod.enterecs.net/",
+          "publicURL": "https://neutron.it-mil1.entercloudsuite.com/",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://neutron.int.nl-ams1.prod.enterecs.net/",
+          "id": "830e072a01e643a0a6c77f7f4e4ace60",
+          "internalURL": "http://neutron.int.nl-ams1.prod.enterecs.net/",
+          "publicURL": "https://neutron.nl-ams1.entercloudsuite.com/",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://neutron.int.de-fra1.prod.enterecs.net/",
+          "id": "a0107699ccaf11e3be45002590db9162",
+          "internalURL": "http://neutron.int.de-fra1.prod.enterecs.net/",
+          "publicURL": "https://neutron.de-fra1.entercloudsuite.com/",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://glance.int.it-mil1.prod.enterecs.net",
+          "id": "8a41fd25ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://glance.int.it-mil1.prod.enterecs.net",
+          "publicURL": "https://glance.it-mil1.entercloudsuite.com",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://glance.int.nl-ams1.prod.enterecs.net",
+          "id": "1b7fb8888af642df88879e81972103ac",
+          "internalURL": "http://glance.int.nl-ams1.prod.enterecs.net",
+          "publicURL": "https://glance.nl-ams1.entercloudsuite.com",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://glance.int.de-fra1.prod.enterecs.net",
+          "id": "9fee18dcccaf11e3be45002590db9162",
+          "internalURL": "http://glance.int.de-fra1.prod.enterecs.net",
+          "publicURL": "https://glance.de-fra1.entercloudsuite.com",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://ceilometer.int.it-mil1.prod.enterecs.net/",
+          "id": "8a3f1f3fec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://ceilometer.int.it-mil1.prod.enterecs.net/",
+          "publicURL": "https://ceilometer.it-mil1.entercloudsuite.com/",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://ceilometer.int.nl-ams1.prod.enterecs.net/",
+          "id": "191c6cbfafeb46ad905f159cc0213a08",
+          "internalURL": "http://ceilometer.int.nl-ams1.prod.enterecs.net/",
+          "publicURL": "https://ceilometer.nl-ams1.entercloudsuite.com/",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://ceilometer.int.de-fra1.prod.enterecs.net/",
+          "id": "9fea70a6ccaf11e3be45002590db9162",
+          "internalURL": "http://ceilometer.int.de-fra1.prod.enterecs.net/",
+          "publicURL": "https://ceilometer.de-fra1.entercloudsuite.com/",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "ceilometer",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://cloudformation.int.it-mil1.prod.enterecs.net/v1",
+          "id": "a5aaf986ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://cloudformation.int.it-mil1.prod.enterecs.net/v1",
+          "publicURL": "https://cloudformation.it-mil1.entercloudsuite.com/v1",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://cloudformation.int.nl-ams1.prod.enterecs.net/v1",
+          "id": "0188185af7e84377bf85efc548d3a3e2",
+          "internalURL": "http://cloudformation.int.nl-ams1.prod.enterecs.net/v1",
+          "publicURL": "https://cloudformation.it-mil1.entercloudsuite.com/v1",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://cloudformation.int.de-fra1.prod.enterecs.net/v1",
+          "id": "a056fb39ccaf11e3be45002590db9162",
+          "internalURL": "http://cloudformation.int.de-fra1.prod.enterecs.net/v1",
+          "publicURL": "https://cloudformation.it-mil1.entercloudsuite.com/v1",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat-cfn",
+      "type": "cloudformation"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://cinder.int.it-mil1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "8a394384ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://cinder.int.it-mil1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://cinder.it-mil1.entercloudsuite.com/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://cinder.int.nl-ams1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "0b37e81c4b3d49a79c13d75b20dee51a",
+          "internalURL": "http://cinder.int.nl-ams1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://cinder.nl-ams1.entercloudsuite.com/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://cinder.int.de-fra1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "9fe2f188ccaf11e3be45002590db9162",
+          "internalURL": "http://cinder.int.de-fra1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://cinder.de-fra1.entercloudsuite.com/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://horizon.it-mil1.entercloudsuite.com/",
+          "id": "8fa12399ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "https://horizon.it-mil1.entercloudsuite.com/",
+          "publicURL": "https://horizon.it-mil1.entercloudsuite.com/",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "https://horizon.nl-ams1.entercloudsuite.com/",
+          "id": "6282ef7c12194312bf9b6044b33479c8",
+          "internalURL": "https://horizon.nl-ams1.entercloudsuite.com/",
+          "publicURL": "https://horizon.nl-ams1.entercloudsuite.com/",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "https://horizon.de-fra1.entercloudsuite.com/",
+          "id": "a00145f1ccaf11e3be45002590db9162",
+          "internalURL": "https://horizon.de-fra1.entercloudsuite.com/",
+          "publicURL": "https://horizon.de-fra1.entercloudsuite.com/",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "horizon",
+      "type": "dashboard"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://heat.int.it-mil1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "a5b49fa7ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "https://heat.int.it-mil1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://heat.it-mil1.entercloudsuite.com/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "https://heat.int.nl-ams1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "719f0b209a51454391d019545944d0b5",
+          "internalURL": "https://heat.int.nl-ams1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://heat.nl-ams1.entercloudsuite.com/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "https://heat.int.de-fra1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "a41c0c68ccaf11e3be45002590db9162",
+          "internalURL": "https://heat.int.de-fra1.prod.enterecs.net/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://heat.de-fra1.entercloudsuite.com/v1/94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://swift.int.it-mil1.prod.enterecs.net:8181/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "8f9e5143ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://swift.int.it-mil1.prod.enterecs.net:8181/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://swift.it-mil1.entercloudsuite.com/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://swift.int.nl-ams1.prod.enterecs.net:8181/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "59bce1cebb4b4b55bef4c698a7f7b504",
+          "internalURL": "http://swift.int.nl-ams1.prod.enterecs.net:8181/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://swift.nl-ams1.entercloudsuite.com/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://swift.int.de-fra1.prod.enterecs.net:8181/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "id": "9ffd782eccaf11e3be45002590db9162",
+          "internalURL": "http://swift.int.de-fra1.prod.enterecs.net:8181/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "publicURL": "https://swift.de-fra1.entercloudsuite.com/v1/KEY_94b6cfba32324c55ac2cc1514d7564b8",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://admin.it-mil1.entercloudsuite.com/v2.0",
+          "id": "8f9b35c6ec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://api.int.it-mil1.prod.enterecs.net/v2.0",
+          "publicURL": "https://api.it-mil1.entercloudsuite.com/v2.0",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "https://admin.nl-ams1.entercloudsuite.com/v2.0",
+          "id": "5507457c975940368568f39c204226a9",
+          "internalURL": "http://api.int.nl-ams1.prod.enterecs.net/v2.0",
+          "publicURL": "https://api.nl-ams1.entercloudsuite.com/v2.0",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "https://admin.de-fra1.entercloudsuite.com/v2.0",
+          "id": "9ff9ae80ccaf11e3be45002590db9162",
+          "internalURL": "http://api.int.de-fra1.prod.enterecs.net/v2.0",
+          "publicURL": "https://api.de-fra1.entercloudsuite.com/v2.0",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://ec2.int.it-mil1.prod.enterecs.net/services/Admin",
+          "id": "9a36aacfec9011e3bc0e9a2d6066c5cd",
+          "internalURL": "http://ec2.int.it-mil1.prod.enterecs.net/services/Admin",
+          "publicURL": "https://ec2.it-mil1.entercloudsuite.com/services/Cloud",
+          "region": "it-mil1"
+        },
+        {
+          "adminURL": "http://ec2.int.nl-ams1.prod.enterecs.net/services/Admin",
+          "id": "9675d298ec6b4dd7bd4d622945e8b10f",
+          "internalURL": "http://ec2.int.nl-ams1.prod.enterecs.net/services/Admin",
+          "publicURL": "https://ec2.nl-ams1.entercloudsuite.com/services/Cloud",
+          "region": "nl-ams1"
+        },
+        {
+          "adminURL": "http://ec2.int.de-fra1.prod.enterecs.net/services/Admin",
+          "id": "a01d4989ccaf11e3be45002590db9162",
+          "internalURL": "http://ec2.int.de-fra1.prod.enterecs.net/services/Admin",
+          "publicURL": "https://ec2.de-fra1.entercloudsuite.com/services/Cloud",
+          "region": "de-fra1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "ec2",
+      "type": "ec2"
+    }
+]}
