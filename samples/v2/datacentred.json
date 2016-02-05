@@ -1,0 +1,157 @@
+
+{"serviceCatalog": [
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8774/v2/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "id": "069995104dbf41b488c93b5c3f3d4f2b",
+          "internalURL": "https://compute.datacentred.io:8774/v2/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "publicURL": "https://compute.datacentred.io:8774/v2/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:9696/",
+          "id": "006ddfdf8ac6439eb166bd34e14cd0ea",
+          "internalURL": "https://compute.datacentred.io:9696/",
+          "publicURL": "https://compute.datacentred.io:9696/",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8776/v2/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "id": "0153fd00324b4c2cb72f97045337100a",
+          "internalURL": "https://compute.datacentred.io:8776/v2/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "publicURL": "https://compute.datacentred.io:8776/v2/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:9292",
+          "id": "09e95eb5cda34bfb89c0f0f2cf581c0b",
+          "internalURL": "https://compute.datacentred.io:9292",
+          "publicURL": "https://compute.datacentred.io:9292",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8777",
+          "id": "1b27e434dc0347edb4dcc16b4d67e6fa",
+          "internalURL": "https://compute.datacentred.io:8777",
+          "publicURL": "https://compute.datacentred.io:8777",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "ceilometer",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8000/v1/",
+          "id": "331aa518962f48e89858243a44fa1bcc",
+          "internalURL": "https://compute.datacentred.io:8000/v1/",
+          "publicURL": "https://compute.datacentred.io:8000/v1/",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat-cfn",
+      "type": "cloudformation"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8776/v1/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "id": "029f24b1f3e2431cb9f0d853d2372692",
+          "internalURL": "https://compute.datacentred.io:8776/v1/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "publicURL": "https://compute.datacentred.io:8776/v1/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8773/services/Admin",
+          "id": "00d226986f8e49b59dffeab929cd7324",
+          "internalURL": "https://compute.datacentred.io:8773/services/Cloud",
+          "publicURL": "https://compute.datacentred.io:8773/services/Cloud",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova_ec2",
+      "type": "ec2"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:8004/v1/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "id": "336a848878e74231b570c8d880ed4cb3",
+          "internalURL": "https://compute.datacentred.io:8004/v1/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "publicURL": "https://compute.datacentred.io:8004/v1/4fedcfe3a66e4e7cb88310cfabaf04c0",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://storage.datacentred.io/swift/v1",
+          "id": "01f7952d398941eda2e8c18849339862",
+          "internalURL": "https://storage.datacentred.io/swift/v1",
+          "publicURL": "https://storage.datacentred.io/swift/v1",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.datacentred.io:35357/v2.0",
+          "id": "0cc07b02bccf46158b9880b0dddbf0e2",
+          "internalURL": "https://compute.datacentred.io:5000/v2.0",
+          "publicURL": "https://compute.datacentred.io:5000/v2.0",
+          "region": "sal01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}

@@ -22,6 +22,7 @@ SAMPLE_v2_CATALOGS = [
     'rackspace',
     'rdo',
     'auro',
+    'datacentred',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
