@@ -1,0 +1,146 @@
+{
+    "serviceCatalog": [{
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8004/v1/1c453457b3be4738ac22e74c71312e6f",
+        "id": "5287be84db5f48aebb0105df8768f026",
+        "internalURL": "http://172.27.236.10:8004/v1/1c453457b3be4738ac22e74c71312e6f",
+        "publicURL": "http://172.27.236.10:8004/v1/1c453457b3be4738ac22e74c71312e6f",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8774/v2/1c453457b3be4738ac22e74c71312e6f",
+        "id": "2b34612233ae40ad9449bbf9cb5d85de",
+        "internalURL": "http://172.27.236.10:8774/v2/1c453457b3be4738ac22e74c71312e6f",
+        "publicURL": "http://172.27.236.10:8774/v2/1c453457b3be4738ac22e74c71312e6f",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:9696",
+        "id": "14d424084fe2412c9a722c1ba3ae1e9e",
+        "internalURL": "http://172.27.236.10:9696",
+        "publicURL": "http://172.27.236.10:9696",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8776/v2/1c453457b3be4738ac22e74c71312e6f",
+        "id": "7ce12338e8d34a1cb3e5031bf1abf56b",
+        "internalURL": "http://172.27.236.10:8776/v2/1c453457b3be4738ac22e74c71312e6f",
+        "publicURL": "http://172.27.236.10:8776/v2/1c453457b3be4738ac22e74c71312e6f",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "cinderv2",
+      "type": "volumev2"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8774/v3",
+        "id": "91f6b73f011d4dc3815b0b52e62e9a43",
+        "internalURL": "http://172.27.236.10:8774/v3",
+        "publicURL": "http://172.27.236.10:8774/v3",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "novav3",
+      "type": "computev3"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:3333",
+        "id": "74ca15eb0b28408db1916379ff2fbdeb",
+        "internalURL": "http://172.27.236.10:3333",
+        "publicURL": "http://172.27.236.10:3333",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "s3",
+      "type": "s3"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:9292",
+        "id": "0ff2f54a026c401f99b3b2f81135b685",
+        "internalURL": "http://172.27.236.10:9292",
+        "publicURL": "http://172.27.236.10:9292",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8000/v1",
+        "id": "71103fd964a04399b21296341084045f",
+        "internalURL": "http://172.27.236.10:8000/v1",
+        "publicURL": "http://172.27.236.10:8000/v1",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "cloudformation"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8776/v1/1c453457b3be4738ac22e74c71312e6f",
+        "id": "1db1bbf1f0a44148b7be7e1a00cefb73",
+        "internalURL": "http://172.27.236.10:8776/v1/1c453457b3be4738ac22e74c71312e6f",
+        "publicURL": "http://172.27.236.10:8776/v1/1c453457b3be4738ac22e74c71312e6f",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8773/services/Admin",
+        "id": "086d7f53cda74908b9fc6b9c6e06ab99",
+        "internalURL": "http://172.27.236.10:8773/services/Cloud",
+        "publicURL": "http://172.27.236.10:8773/services/Cloud",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "ec2",
+      "type": "ec2"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8774/v2.1",
+        "id": "796a74b5f48a4affa5e74a82806ecc0e",
+        "internalURL": "http://172.27.236.10:8774/v2.1",
+        "publicURL": "http://172.27.236.10:8774/v2.1",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "novav21",
+      "type": "computev21"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:8080/v1/AUTH_1c453457b3be4738ac22e74c71312e6f",
+        "id": "29ace45462fb46f3b0e440c4cafff0f8",
+        "internalURL": "http://172.27.236.10:8080/v1/AUTH_1c453457b3be4738ac22e74c71312e6f",
+        "publicURL": "http://172.27.236.10:8080/v1/AUTH_1c453457b3be4738ac22e74c71312e6f",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    }, {
+      "endpoints": [{
+        "adminURL": "http://172.27.236.10:35357/v3",
+        "id": "0bc4a5fb2bcf43a0b778db3d03efb551",
+        "internalURL": "http://172.27.236.10:5000/v2.0",
+        "publicURL": "http://172.27.236.10:5000/v2.0",
+        "region": "RegionOne"
+      }],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }]
+  }

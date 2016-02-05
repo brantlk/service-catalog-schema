@@ -19,6 +19,7 @@ V2_SCHEMA = json.load(open('schemas/v2.json'))
 SAMPLE_v2_CATALOGS = [
     'devstack',
     'keystone',
+    'rackspace',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
