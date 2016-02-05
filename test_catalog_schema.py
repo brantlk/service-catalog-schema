@@ -115,15 +115,22 @@ V3_SCHEMA_JSON = r"""
               "type": "string",
               "enum": ["public", "admin", "internal"]
             },
-            "region": {"type": "string"},
-            "region_id": {"type": "string"},
+            "region": {
+              "description": "This is being changed to region_id.",
+              "type": "string"
+            },
+            "region_id": {
+              "description": "newer, so not all clouds report this.",
+              "type": "string"
+            },
             "url": {
               "description": "The URL may contain the version, project (tenant) ID, or account ID.",
               "type": "string"
             },
             "id": {"type": "string"}
           },
-          "required": ["interface", "region", "region_id", "url", "id"],
+          "required": ["interface", "region", "url", "id"],
+          "optional": ["region_id"],
           "additionalProperties": false
         }
       }
@@ -201,15 +208,22 @@ NG_SCHEMA_JSON = r"""
               "type": "string",
               "enum": ["public", "admin", "internal"]
             },
-            "region": {"type": "string"},
-            "region_id": {"type": "string"},
+            "region": {
+              "description": "This is being changed to region_id, but may still be present.",
+              "type": "string"
+            },
+            "region_id": {
+              "description": "newer, so not all clouds even report this.",
+              "type": "string"
+            },
             "url": {
               "description": "The URL does not contain the version, project (tenant) ID, or account ID.",
               "type": "string"
             },
             "id": {"type": "string"}
           },
-          "required": ["interface", "region", "region_id", "url", "id"],
+          "required": ["interface", "region", "url", "id"],
+          "optional": ["region_id"],
           "additionalProperties": true
         }
       }
