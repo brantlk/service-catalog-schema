@@ -73,23 +73,28 @@ V3_SCHEMA_JSON = """
   "items": {
     "type": "object",
     "properties": {
-      "type": {"type": "string"},
-      "name": {"type": "string"},
-      "id": {"type": "string"},
+      "type": {"type": "string", "minLength": 1},
+      "name": {"type": "string", "minLength": 1},
+      "id": {"type": "string", "minLength": 1},
       "endpoints": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "interface": {"type": "string"},
+            "interface": {
+              "type": "string",
+              "enum": ["public", "admin", "internal"]
+            },
             "region": {"type": "string"},
             "region_id": {"type": "string"},
             "url": {"type": "string"},
             "id": {"type": "string"}
-          }
+          },
+          "required": ["interface", "region", "region_id", "url", "id"]
         }
       }
-    }
+    },
+    "required": ["type", "name", "id", "endpoints"]
   }
 }
 """
