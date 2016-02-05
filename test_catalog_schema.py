@@ -28,6 +28,7 @@ SAMPLE_v2_CATALOGS = [
     'enter_cloud_suite',
     'hp',
     'internap',
+    'ovh',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
