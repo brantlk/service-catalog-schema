@@ -1,0 +1,123 @@
+{"catalog": [
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "gd1",
+          "url": "https://gd1.volume.api.ustack.com/v1/086780c2c85a42ed99a0981397d1b4ac"
+        }
+      ],
+      "name": "Volume Service",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "gd1",
+          "url": "https://gd1.image.api.ustack.com"
+        }
+      ],
+      "name": "Image Service",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "gd1",
+          "url": "https://gd1.compute.api.ustack.com/v2/086780c2c85a42ed99a0981397d1b4ac"
+        }
+      ],
+      "name": "Compute Service",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "gd1",
+          "url": "https://gd1.network.api.ustack.com"
+        }
+      ],
+      "name": "Network Service",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "gd1",
+          "url": "https://gd1.monitoring.api.ustack.com"
+        }
+      ],
+      "name": "Monitoring Service",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "center",
+          "url": "https://identity.api.ustack.com"
+        }
+      ],
+      "name": "Identity Service",
+      "type": "identity"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "bj1",
+          "url": "https://bj1.volume.api.ustack.com/v1/086780c2c85a42ed99a0981397d1b4ac"
+        }
+      ],
+      "name": "Volume Service",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "bj1",
+          "url": "https://bj1.image.api.ustack.com"
+        }
+      ],
+      "name": "Image Service",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "bj1",
+          "url": "https://bj1.compute.api.ustack.com/v2/086780c2c85a42ed99a0981397d1b4ac"
+        }
+      ],
+      "name": "Compute Service",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "bj1",
+          "url": "https://bj1.network.api.ustack.com"
+        }
+      ],
+      "name": "Network Service",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "interface": "public",
+          "region": "bj1",
+          "url": "https://bj1.monitoring.api.ustack.com"
+        }
+      ],
+      "name": "Monitoring Service",
+      "type": "metering"
+    }
+]}

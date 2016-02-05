@@ -45,6 +45,7 @@ SAMPLE_V3_CATALOGS = [
     'keystone',
     'mirantis',
     'citycloud',
+    'unitedStack',
 ]
 
 for s in SAMPLE_V3_CATALOGS:

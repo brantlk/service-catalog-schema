@@ -10,7 +10,11 @@
         "minLength": 1
       },
       "name": {"type": "string", "minLength": 1},
-      "id": {"type": "string", "minLength": 1},
+      "id": {
+          "description": "Not present in UnitedStack catalog.",
+          "type": "string",
+          "minLength": 1
+      },
       "endpoints": {
         "type": "array",
         "items": {
@@ -43,7 +47,8 @@
         }
       }
     },
-    "required": ["type", "name", "id", "endpoints"],
+    "required": ["type", "name", "endpoints"],
+    "optional": ["id"],
     "additionalProperties": false
   }
 }
