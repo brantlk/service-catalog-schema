@@ -1,0 +1,156 @@
+{"serviceCatalog": [
+   {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8004/v1/79444aac46ab4f33a2d1ba99bf8abe21",
+          "id": "0a80f7cdd9f44a2abefdda1ea5d8c2e8",
+          "internalURL": "http://ops.elastx.local:8004/v1/79444aac46ab4f33a2d1ba99bf8abe21",
+          "publicURL": "https://ops.elastx.net:8004/v1/79444aac46ab4f33a2d1ba99bf8abe21",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8774/v2/79444aac46ab4f33a2d1ba99bf8abe21",
+          "id": "26ac0d4e948546abb5d7800177c40a80",
+          "internalURL": "http://ops.elastx.local:8774/v2/79444aac46ab4f33a2d1ba99bf8abe21",
+          "publicURL": "https://ops.elastx.net:8774/v2/79444aac46ab4f33a2d1ba99bf8abe21",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:9696",
+          "id": "1124ce22183f45268eec99d4b2deac7a",
+          "internalURL": "http://ops.elastx.local:9696",
+          "publicURL": "https://ops.elastx.net:9696",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8776/v2/79444aac46ab4f33a2d1ba99bf8abe21",
+          "id": "131a6eada528452b808f2a20909bc314",
+          "internalURL": "http://ops.elastx.local:8776/v2/79444aac46ab4f33a2d1ba99bf8abe21",
+          "publicURL": "https://ops.elastx.net:8776/v2/79444aac46ab4f33a2d1ba99bf8abe21",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:9292",
+          "id": "20222b365b58463ab574149b745900a3",
+          "internalURL": "http://ops.elastx.local:9292",
+          "publicURL": "https://ops.elastx.net:9292",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8777/",
+          "id": "0553f65af45e487ea0dc36767b8085a1",
+          "internalURL": "http://ops.elastx.local:8777/",
+          "publicURL": "https://ops.elastx.net:8777/",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "ceilometer",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8000/v1",
+          "id": "1c478ee8b3d247f3803308b2bab67b28",
+          "internalURL": "http://ops.elastx.local:8000/v1",
+          "publicURL": "https://ops.elastx.net:8000/v1",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat-cfn",
+      "type": "cloudformation"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8776/v1/79444aac46ab4f33a2d1ba99bf8abe21",
+          "id": "2246b952bae34dbaa982d45b597c829c",
+          "internalURL": "http://ops.elastx.local:8776/v1/79444aac46ab4f33a2d1ba99bf8abe21",
+          "publicURL": "https://ops.elastx.net:8776/v1/79444aac46ab4f33a2d1ba99bf8abe21",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:9001/",
+          "id": "3f8ebfe004e6411bab0aba91fff4369c",
+          "internalURL": "http://ops.elastx.local:9001/",
+          "publicURL": "https://ops.elastx.net:9001/",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "designate",
+      "type": "dns"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:8443/v1",
+          "id": "15e1a1a6df2640c2908d06fbb9bae1fc",
+          "internalURL": "http://ops.elastx.local:8080/v1/AUTH_79444aac46ab4f33a2d1ba99bf8abe21",
+          "publicURL": "https://ops.elastx.net:8443/v1/AUTH_79444aac46ab4f33a2d1ba99bf8abe21",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://ops.elastx.net:35357/v2.0",
+          "id": "07044e34826841f6af4a96a2be4cd036",
+          "internalURL": "https://ops.elastx.net:5000/v2.0",
+          "publicURL": "https://ops.elastx.net:5000/v2.0",
+          "region": "regionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}

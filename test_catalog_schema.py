@@ -24,6 +24,7 @@ SAMPLE_v2_CATALOGS = [
     'auro',
     'datacentred',
     'dreamhost',
+    'elastix',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
