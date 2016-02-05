@@ -1,0 +1,18 @@
+{
+  "serviceCatalog": [
+    {
+      "type": "identity",
+      "name": "keystone",
+      "endpoints_links": [],
+      "endpoints": [
+        {
+          "adminURL": "http://192.168.122.239:35357/v3",
+          "internalURL": "http://192.168.122.239:5000/v3",
+          "publicURL": "http://192.168.122.239:5000/v3",
+          "region": "RegionOne",
+          "id": "0e0b3d009aa04da0aee163e034dd6190"
+        }
+      ]
+    }
+  ]
+}
