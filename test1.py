@@ -196,7 +196,8 @@ NG_SCHEMA_JSON = """
         }
       }
     },
-    "required": ["type", "name", "id", "endpoints"]
+    "required": ["type", "id", "endpoints"],
+    "optional": ["name"]
   }
 }
 """
@@ -208,7 +209,6 @@ SAMPLE_NG_CATALOG_JSON = """
 {"catalog": [
   {
     "type": "identity",
-    "name": "keystone",
     "id": "cdc3ae8870af44698e722547d660355b",
     "endpoints": [
       {
