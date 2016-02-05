@@ -39,11 +39,13 @@ V2_SCHEMA_JSON = """
               "id": {"type": "string"}
             },
             "required": [
-              "adminURL", "internalURL", "publicURL", "region", "id"]
+              "adminURL", "internalURL", "publicURL", "region", "id"],
+            "additionalProperties": false
           }
         }
     },
-    "required": ["type", "name", "endpoints_links", "endpoints"]
+    "required": ["type", "name", "endpoints_links", "endpoints"],
+    "additionalProperties": false
   }
 }
 """
@@ -110,11 +112,13 @@ V3_SCHEMA_JSON = """
             },
             "id": {"type": "string"}
           },
-          "required": ["interface", "region", "region_id", "url", "id"]
+          "required": ["interface", "region", "region_id", "url", "id"],
+          "additionalProperties": false
         }
       }
     },
-    "required": ["type", "name", "id", "endpoints"]
+    "required": ["type", "name", "id", "endpoints"],
+    "additionalProperties": false
   }
 }
 """
@@ -166,6 +170,7 @@ NG_SCHEMA_JSON = """
   "title": "Next-Generation Service Catalog",
   "type": "array",
   "items": {
+    "description": "Additional properties are allowed for backwards-compatibility as deployments move to the new format.",
     "type": "object",
     "properties": {
       "type": {
@@ -178,6 +183,7 @@ NG_SCHEMA_JSON = """
       "endpoints": {
         "type": "array",
         "items": {
+          "description": "Additional properties are allowed for backwards-compatibility as deployments move to the new format.",
           "type": "object",
           "properties": {
             "interface": {
@@ -192,12 +198,14 @@ NG_SCHEMA_JSON = """
             },
             "id": {"type": "string"}
           },
-          "required": ["interface", "region", "region_id", "url", "id"]
+          "required": ["interface", "region", "region_id", "url", "id"],
+          "additionalProperties": true
         }
       }
     },
     "required": ["type", "id", "endpoints"],
-    "optional": ["name"]
+    "optional": ["name"],
+    "additionalProperties": true
   }
 }
 """
