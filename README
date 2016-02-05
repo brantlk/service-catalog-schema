@@ -1,0 +1,8 @@
+Place to work on next gen service catalog
+
+References
+
+- <a href="http://specs.openstack.org/openstack/openstack-specs/specs/service-catalog.html">Cross-project spec</a>
+- <a href="https://wiki.openstack.org/wiki/API_Working_Group/Current_Design/Service_Catalog>Sample Catalogs</a>
+- <a href="http://json-schema.org/latest/json-schema-validation.html">JSON Schema</a>
+
