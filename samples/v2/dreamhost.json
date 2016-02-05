@@ -1,0 +1,100 @@
+{"serviceCatalog": [
+  {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.dream.io:8774/v2/4ebbd212080c459196626747b8b0afa0",
+          "id": "3f8214d2f3c145baabd5aaad7e72f275",
+          "internalURL": "https://compute.dream.io:8774/v2/4ebbd212080c459196626747b8b0afa0",
+          "publicURL": "https://compute.dream.io:8774/v2/4ebbd212080c459196626747b8b0afa0",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://network.dream.io:9696",
+          "id": "7e1239faca454c9ea1e7bc90c3f8febc",
+          "internalURL": "https://network.dream.io:9696",
+          "publicURL": "https://network.dream.io:9696",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "quantum",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://block.dream.io:8776/v2/4ebbd212080c459196626747b8b0afa0",
+          "id": "121ddcd37027411195fa0b7103481d43",
+          "internalURL": "https://block.dream.io:8776/v2/4ebbd212080c459196626747b8b0afa0",
+          "publicURL": "https://block.dream.io:8776/v2/4ebbd212080c459196626747b8b0afa0",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://image.dream.io:9292/v2",
+          "id": "0f18f201ca6c4e66b625b74c7d8bd2d3",
+          "internalURL": "https://image.dream.io:9292/v2",
+          "publicURL": "https://image.dream.io:9292/v2",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "http://10.64.144.56:80/",
+          "id": "0260c0dcb57245f28d74677d12fa480b",
+          "internalURL": "http://10.64.144.56:80/",
+          "publicURL": "http://10.64.144.56:80/",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "ceilometer",
+      "type": "metering"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://block.dream.io:8776/v1/4ebbd212080c459196626747b8b0afa0",
+          "id": "2bdcbdb9930d4d7cb1626b45c0ab066a",
+          "internalURL": "https://block.dream.io:8776/v1/4ebbd212080c459196626747b8b0afa0",
+          "publicURL": "https://block.dream.io:8776/v1/4ebbd212080c459196626747b8b0afa0",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://keystone-admin.dream.io:35357/v2.0",
+          "id": "737e94c87dde47b7a656a5ece0266170",
+          "internalURL": "https://keystone.dream.io/v2.0",
+          "publicURL": "https://keystone.dream.io/v2.0",
+          "region": "RegionOne"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}
