@@ -16,21 +16,34 @@ import jsonschema
 
 
 V2_SCHEMA = json.load(open('schemas/v2.json'))
-SAMPLE_V2_CATALOG = json.load(open('samples/v2/keystone.json'))
+SAMPLE_v2_CATALOGS = [
+    'devstack',
+    'keystone',
+]
 
-
-jsonschema.validate(SAMPLE_V2_CATALOG['serviceCatalog'], V2_SCHEMA)
+for s in SAMPLE_v2_CATALOGS:
+    fn = 'samples/v2/%s.json' % s
+    sample = json.load(open(fn))
+    jsonschema.validate(sample['serviceCatalog'], V2_SCHEMA)
 
 
 V3_SCHEMA = json.load(open('schemas/v3.json'))
-SAMPLE_V3_CATALOG = json.load(open('samples/v3/keystone.json'))
+SAMPLE_V3_CATALOGS = [
+    'keystone',
+]
 
-
-jsonschema.validate(SAMPLE_V3_CATALOG['catalog'], V3_SCHEMA)
+for s in SAMPLE_V3_CATALOGS:
+    fn = 'samples/v3/%s.json' % s
+    sample = json.load(open(fn))
+    jsonschema.validate(sample['catalog'], V3_SCHEMA)
 
 
 NG_SCHEMA = json.load(open('schemas/ng.json'))
-SAMPLE_NG_CATALOG = json.load(open('samples/ng/simple.json'))
+SAMPLE_NG_CATALOGS = [
+    'simple',
+]
 
-
-jsonschema.validate(SAMPLE_NG_CATALOG['catalog'], NG_SCHEMA)
+for s in SAMPLE_NG_CATALOGS:
+    fn = 'samples/ng/%s.json' % s
+    sample = json.load(open(fn))
+    jsonschema.validate(sample['catalog'], NG_SCHEMA)
