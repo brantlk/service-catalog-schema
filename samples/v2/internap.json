@@ -1,0 +1,311 @@
+{"serviceCatalog": [
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.api.da01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://compute.api.da01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://compute.api.da01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://compute.api.mtl01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://compute.api.mtl01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://compute.api.mtl01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://compute.api.ne01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://compute.api.ne01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://compute.api.ne01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://compute.api.ams01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://compute.api.ams01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://compute.api.ams01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://compute.api.nyj01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://compute.api.nyj01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://compute.api.nyj01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://network.api.da01.cloud.iweb.com",
+          "internalURL": "https://network.api.da01.cloud.iweb.com",
+          "publicURL": "https://network.api.da01.cloud.iweb.com",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://network.api.mtl01.cloud.iweb.com",
+          "internalURL": "https://network.api.mtl01.cloud.iweb.com",
+          "publicURL": "https://network.api.mtl01.cloud.iweb.com",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://network.api.ne01.cloud.iweb.com",
+          "internalURL": "https://network.api.ne01.cloud.iweb.com",
+          "publicURL": "https://network.api.ne01.cloud.iweb.com",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://network.api.ams01.cloud.iweb.com",
+          "internalURL": "https://network.api.ams01.cloud.iweb.com",
+          "publicURL": "https://network.api.ams01.cloud.iweb.com",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://network.api.nyj01.cloud.iweb.com",
+          "internalURL": "https://network.api.nyj01.cloud.iweb.com",
+          "publicURL": "https://network.api.nyj01.cloud.iweb.com",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://volume.api.da01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.da01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.da01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://volume.api.mtl01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.mtl01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.mtl01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://volume.api.ne01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.ne01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.ne01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://volume.api.nyj01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.nyj01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.nyj01.cloud.iweb.com/v2/760e6c137b3840d78472d313dfa3df45",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinderv2",
+      "type": "volumev2"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://image.api.da01.cloud.iweb.com",
+          "internalURL": "https://image.api.da01.cloud.iweb.com",
+          "publicURL": "https://image.api.da01.cloud.iweb.com",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://image.api.mtl01.cloud.iweb.com",
+          "internalURL": "https://image.api.mtl01.cloud.iweb.com",
+          "publicURL": "https://image.api.mtl01.cloud.iweb.com",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://image.api.ne01.cloud.iweb.com",
+          "internalURL": "https://image.api.ne01.cloud.iweb.com",
+          "publicURL": "https://image.api.ne01.cloud.iweb.com",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://image.api.ams01.cloud.iweb.com",
+          "internalURL": "https://image.api.ams01.cloud.iweb.com",
+          "publicURL": "https://image.api.ams01.cloud.iweb.com",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://image.api.nyj01.cloud.iweb.com",
+          "internalURL": "https://image.api.nyj01.cloud.iweb.com",
+          "publicURL": "https://image.api.nyj01.cloud.iweb.com",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://cloudformation.api.da01.cloud.iweb.com/v1",
+          "internalURL": "https://cloudformation.api.da01.cloud.iweb.com/v1",
+          "publicURL": "https://cloudformation.api.da01.cloud.iweb.com/v1",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://cloudformation.api.mtl01.cloud.iweb.com/v1",
+          "internalURL": "https://cloudformation.api.mtl01.cloud.iweb.com/v1",
+          "publicURL": "https://cloudformation.api.mtl01.cloud.iweb.com/v1",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://cloudformation.api.ams01.cloud.iweb.com/v1",
+          "internalURL": "https://cloudformation.api.ams01.cloud.iweb.com/v1",
+          "publicURL": "https://cloudformation.api.ams01.cloud.iweb.com/v1",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://cloudformation.api.nyj01.cloud.iweb.com/v1",
+          "internalURL": "https://cloudformation.api.nyj01.cloud.iweb.com/v1",
+          "publicURL": "https://cloudformation.api.nyj01.cloud.iweb.com/v1",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat-cfn",
+      "type": "cloudformation"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://volume.api.da01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.da01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.da01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://volume.api.mtl01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.mtl01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.mtl01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://volume.api.ne01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.ne01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.ne01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://volume.api.nyj01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://volume.api.nyj01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://volume.api.nyj01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://orchestration.api.da01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://orchestration.api.da01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://orchestration.api.da01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://orchestration.api.mtl01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://orchestration.api.mtl01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://orchestration.api.mtl01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://orchestration.api.ams01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://orchestration.api.ams01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://orchestration.api.ams01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://orchestration.api.nyj01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "internalURL": "https://orchestration.api.nyj01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://orchestration.api.nyj01.cloud.iweb.com/v1/760e6c137b3840d78472d313dfa3df45",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "heat",
+      "type": "orchestration"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://object-store.api.da01.cloud.iweb.com/",
+          "internalURL": "https://object-store.api.da01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://object-store.api.da01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://object-store.api.mtl01.cloud.iweb.com/",
+          "internalURL": "https://object-store.api.mtl01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://object-store.api.mtl01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://object-store.api.ne01.cloud.iweb.com/",
+          "internalURL": "https://object-store.api.ne01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://object-store.api.ne01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://object-store.api.ams01.cloud.iweb.com/",
+          "internalURL": "https://object-store.api.ams01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://object-store.api.ams01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://object-store.api.nyj01.cloud.iweb.com/",
+          "internalURL": "https://object-store.api.nyj01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "publicURL": "https://object-store.api.nyj01.cloud.iweb.com/v1/AUTH_760e6c137b3840d78472d313dfa3df45",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://identity.api.cloud.iweb.com:35357/v2.0",
+          "internalURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "publicURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "region": "da01"
+        },
+        {
+          "adminURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "internalURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "publicURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "region": "mtl01"
+        },
+        {
+          "adminURL": "https://identity.api.cloud.iweb.com:35357/v2.0",
+          "internalURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "publicURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "region": "ne01"
+        },
+        {
+          "adminURL": "https://identity.api.cloud.iweb.com:35357/v2.0",
+          "internalURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "publicURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "region": "ams01"
+        },
+        {
+          "adminURL": "https://identity.api.cloud.iweb.com:35357/v2.0",
+          "internalURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "publicURL": "https://identity.api.cloud.iweb.com/v2.0",
+          "region": "nyj01"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}

@@ -27,6 +27,7 @@ SAMPLE_v2_CATALOGS = [
     'elastix',
     'enter_cloud_suite',
     'hp',
+    'internap',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
