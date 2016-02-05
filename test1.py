@@ -12,7 +12,7 @@ V2_SCHEMA_JSON = """
     "type": "object",
     "properties": {
         "type": {
-          "description": "Service type: identity, volume, compute",
+          "description": "Service type, may use non-standard naming: identity, volume, compute",
           "type": "string",
           "minlength": 1
         },
@@ -87,7 +87,7 @@ V3_SCHEMA_JSON = """
     "type": "object",
     "properties": {
       "type": {
-        "description": "Service type: identity, volume, compute",
+        "description": "Service type, may use non-standard naming: identity, volume, compute",
         "type": "string",
         "minLength": 1
       },
@@ -169,7 +169,7 @@ NG_SCHEMA_JSON = """
     "type": "object",
     "properties": {
       "type": {
-        "description": "Service type: identity, volume, compute",
+        "description": "Service type using standard naming as defined by OpenStack: identity, volume, compute",
         "type": "string",
         "minLength": 1
       },
