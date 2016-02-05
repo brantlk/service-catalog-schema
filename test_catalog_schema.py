@@ -26,6 +26,7 @@ SAMPLE_v2_CATALOGS = [
     'dreamhost',
     'elastix',
     'enter_cloud_suite',
+    'hp',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
