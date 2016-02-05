@@ -68,7 +68,29 @@ jsonschema.validate(SAMPLE_V2_CATALOG['serviceCatalog'], V2_SCHEMA)
 
 V3_SCHEMA_JSON = """
 {
-   "title": "Identity V3 Service Catalog"
+  "title": "Identity V3 Service Catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {"type": "string"},
+      "name": {"type": "string"},
+      "id": {"type": "string"},
+      "endpoints": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "interface": {"type": "string"},
+            "region": {"type": "string"},
+            "region_id": {"type": "string"},
+            "url": {"type": "string"},
+            "id": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
 }
 """
 
