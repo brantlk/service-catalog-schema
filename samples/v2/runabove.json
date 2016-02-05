@@ -1,0 +1,128 @@
+{"serviceCatalog": [
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://compute.sbg-1.runabove.io/v2/05e15a9ead7842e1a6055197352ab92c",
+          "id": "d17b3f92fb34432d9eb972bd89b9aa26",
+          "internalURL": "https://compute.sbg-1.runabove.io/v2/05e15a9ead7842e1a6055197352ab92c",
+          "publicURL": "https://compute.sbg-1.runabove.io/v2/05e15a9ead7842e1a6055197352ab92c",
+          "region": "SBG-1"
+        },
+        {
+          "adminURL": "https://compute.bhs-1.runabove.io/v2/05e15a9ead7842e1a6055197352ab92c",
+          "id": "97e8579268d7421bbbb96c01a54f8ec5",
+          "internalURL": "https://compute.bhs-1.runabove.io/v2/05e15a9ead7842e1a6055197352ab92c",
+          "publicURL": "https://compute.bhs-1.runabove.io/v2/05e15a9ead7842e1a6055197352ab92c",
+          "region": "BHS-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "nova",
+      "type": "compute"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://network.compute.sbg-1.runabove.io/",
+          "id": "51aa3703a4ce484998781d314ffc903d",
+          "internalURL": "https://network.compute.sbg-1.runabove.io/",
+          "publicURL": "https://network.compute.sbg-1.runabove.io/",
+          "region": "SBG-1"
+        },
+        {
+          "adminURL": "https://network.compute.bhs-1.runabove.io/",
+          "id": "42ad6ebe1fe8449b93f7e78d1e21b9af",
+          "internalURL": "https://network.compute.bhs-1.runabove.io/",
+          "publicURL": "https://network.compute.bhs-1.runabove.io/",
+          "region": "BHS-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "neutron",
+      "type": "network"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://image.compute.sbg-1.runabove.io/",
+          "id": "48d12bb5e2524eda9d77471cf349a607",
+          "internalURL": "https://image.compute.sbg-1.runabove.io/",
+          "publicURL": "https://image.compute.sbg-1.runabove.io/",
+          "region": "SBG-1"
+        },
+        {
+          "adminURL": "https://image.compute.bhs-1.runabove.io/",
+          "id": "52e54ba4d4fa47fa855700cac0cb3aba",
+          "internalURL": "https://image.compute.bhs-1.runabove.io/",
+          "publicURL": "https://image.compute.bhs-1.runabove.io/",
+          "region": "BHS-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "glance",
+      "type": "image"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://volume.compute.sbg-1.runabove.io/v1/05e15a9ead7842e1a6055197352ab92c",
+          "id": "3536cecb42e34fd49e28d3163a238bc8",
+          "internalURL": "https://volume.compute.sbg-1.runabove.io/v1/05e15a9ead7842e1a6055197352ab92c",
+          "publicURL": "https://volume.compute.sbg-1.runabove.io/v1/05e15a9ead7842e1a6055197352ab92c",
+          "region": "SBG-1"
+        },
+        {
+          "adminURL": "https://volume.compute.bhs-1.runabove.io/v1/05e15a9ead7842e1a6055197352ab92c",
+          "id": "65cb2d356c454032a465b025f86b31e6",
+          "internalURL": "https://volume.compute.bhs-1.runabove.io/v1/05e15a9ead7842e1a6055197352ab92c",
+          "publicURL": "https://volume.compute.bhs-1.runabove.io/v1/05e15a9ead7842e1a6055197352ab92c",
+          "region": "BHS-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "cinder",
+      "type": "volume"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://storage.sbg-1.runabove.io",
+          "id": "26d0e63156e744f5add985a8e9d58128",
+          "internalURL": "http://127.0.0.1:8888/v1/AUTH_05e15a9ead7842e1a6055197352ab92c",
+          "publicURL": "https://storage.sbg-1.runabove.io/v1/AUTH_05e15a9ead7842e1a6055197352ab92c",
+          "region": "SBG-1"
+        },
+        {
+          "adminURL": "https://storage.bhs-1.runabove.io",
+          "id": "3f887e0b059f45c493a485315797ec35",
+          "internalURL": "http://127.0.0.1:8888/v1/AUTH_05e15a9ead7842e1a6055197352ab92c",
+          "publicURL": "https://storage.bhs-1.runabove.io/v1/AUTH_05e15a9ead7842e1a6055197352ab92c",
+          "region": "BHS-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "swift",
+      "type": "object-store"
+    },
+    {
+      "endpoints": [
+        {
+          "adminURL": "https://auth.runabove.io:35357/v2.0",
+          "id": "166a22a2c80f4026aa1b97a438cace93",
+          "internalURL": "https://auth.runabove.io/v2.0",
+          "publicURL": "https://auth.runabove.io/v2.0",
+          "region": "SBG-1"
+        },
+        {
+          "adminURL": "https://auth.runabove.io:35357/v2.0",
+          "id": "3c4516ca850b4d63a66bdd8325c3c868",
+          "internalURL": "https://auth.runabove.io/v2.0",
+          "publicURL": "https://auth.runabove.io/v2.0",
+          "region": "BHS-1"
+        }
+      ],
+      "endpoints_links": [],
+      "name": "keystone",
+      "type": "identity"
+    }
+]}

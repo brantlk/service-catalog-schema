@@ -30,6 +30,7 @@ SAMPLE_v2_CATALOGS = [
     'internap',
     'ovh',
     'rackspace-public',
+    'runabove',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
