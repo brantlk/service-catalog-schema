@@ -15,22 +15,22 @@ import json
 import jsonschema
 
 
-V2_SCHEMA = json.load(open('v2_schema.json'))
-SAMPLE_V2_CATALOG = json.load(open('sample_keystone_v2.json'))
+V2_SCHEMA = json.load(open('schemas/v2.json'))
+SAMPLE_V2_CATALOG = json.load(open('samples/v2/keystone.json'))
 
 
 jsonschema.validate(SAMPLE_V2_CATALOG['serviceCatalog'], V2_SCHEMA)
 
 
-V3_SCHEMA = json.load(open('v3_schema.json'))
-SAMPLE_V3_CATALOG = json.load(open('sample_keystone_v3.json'))
+V3_SCHEMA = json.load(open('schemas/v3.json'))
+SAMPLE_V3_CATALOG = json.load(open('samples/v3/keystone.json'))
 
 
 jsonschema.validate(SAMPLE_V3_CATALOG['catalog'], V3_SCHEMA)
 
 
-NG_SCHEMA = json.load(open('ng_schema.json'))
-SAMPLE_NG_CATALOG = json.load(open('sample_simple_ng.json'))
+NG_SCHEMA = json.load(open('schemas/ng.json'))
+SAMPLE_NG_CATALOG = json.load(open('samples/ng/simple.json'))
 
 
 jsonschema.validate(SAMPLE_NG_CATALOG['catalog'], NG_SCHEMA)
