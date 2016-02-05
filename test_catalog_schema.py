@@ -29,6 +29,7 @@ SAMPLE_v2_CATALOGS = [
     'hp',
     'internap',
     'ovh',
+    'rackspace-public',
 ]
 
 for s in SAMPLE_v2_CATALOGS:
