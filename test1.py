@@ -4,7 +4,7 @@ import json
 import jsonschema
 
 
-V2_SCHEMA_JSON = """
+V2_SCHEMA_JSON = r"""
 {
   "title": "Identity V2.0 Service Catalog",
   "type": "array",
@@ -54,7 +54,7 @@ V2_SCHEMA_JSON = """
 V2_SCHEMA = json.loads(V2_SCHEMA_JSON)
 
 
-SAMPLE_V2_CATALOG_JSON = """
+SAMPLE_V2_CATALOG_JSON = r"""
 {
   "serviceCatalog": [
     {
@@ -81,7 +81,7 @@ SAMPLE_V2_CATALOG = json.loads(SAMPLE_V2_CATALOG_JSON)
 jsonschema.validate(SAMPLE_V2_CATALOG['serviceCatalog'], V2_SCHEMA)
 
 
-V3_SCHEMA_JSON = """
+V3_SCHEMA_JSON = r"""
 {
   "title": "Identity V3 Service Catalog",
   "type": "array",
@@ -126,7 +126,7 @@ V3_SCHEMA_JSON = """
 V3_SCHEMA = json.loads(V3_SCHEMA_JSON)
 
 
-SAMPLE_V3_CATALOG_JSON = """
+SAMPLE_V3_CATALOG_JSON = r"""
 {"catalog": [
   {
     "type": "identity",
@@ -165,7 +165,7 @@ SAMPLE_V3_CATALOG = json.loads(SAMPLE_V3_CATALOG_JSON)
 jsonschema.validate(SAMPLE_V3_CATALOG['catalog'], V3_SCHEMA)
 
 
-NG_SCHEMA_JSON = """
+NG_SCHEMA_JSON = r"""
 {
   "title": "Next-Generation Service Catalog",
   "type": "array",
@@ -174,7 +174,7 @@ NG_SCHEMA_JSON = """
     "type": "object",
     "properties": {
       "type": {
-        "description": "Service type using standard naming as defined by OpenStack: identity, volume, compute",
+        "description": "Allowed service type values are defined in projects.yaml in the openstack/governance repository. Examples are: identity, compute, volume",
         "type": "string",
         "minLength": 1
       },
@@ -213,7 +213,7 @@ NG_SCHEMA_JSON = """
 NG_SCHEMA = json.loads(NG_SCHEMA_JSON)
 
 
-SAMPLE_NG_CATALOG_JSON = """
+SAMPLE_NG_CATALOG_JSON = r"""
 {"catalog": [
   {
     "type": "identity",
