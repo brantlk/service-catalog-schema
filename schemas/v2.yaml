@@ -73,8 +73,7 @@ items:
 
               This is present in HP, RAX public cloud catalog.
             type: string
-        required:
-          - publicURL
+        required: [publicURL]
         optional:
           - id
           - region
@@ -90,10 +89,6 @@ items:
       description: This is not present in the HP public cloud catalog.
       type: array
       maxItems: 0
-  required:
-    - type
-    - name
-    - endpoints
-  optional:
-    - endpoints_links
+  required: [type, name, endpoints]
+  optional: [endpoints_links]
   additionalProperties: false

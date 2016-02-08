@@ -14,6 +14,8 @@ items:
       type: string
       minLength: 1
     name:
+      description: >
+        Service name: keystone, cinder, nova, etc.
       type: string
       minLength: 1
     id:
@@ -31,10 +33,7 @@ items:
             type: string
           interface:
             type: string
-            enum:
-              - public
-              - admin
-              - internal
+            enum: [public, admin, internal]
           region:
             description: >
               This is being changed to region_id, but may still be present.
@@ -47,18 +46,9 @@ items:
               The URL does not contain the version, project (tenant) ID, or
               account ID.
             type: string
-        required:
-          - interface
-          - region
-          - url
-          - id
-        optional:
-          - region_id
+        required: [interface, region, url, id]
+        optional: [region_id]
         additionalProperties: true
-  required:
-    - type
-    - id
-    - endpoints
-  optional:
-    - name
+  required: [type, id, endpoints]
+  optional: [name]
   additionalProperties: true

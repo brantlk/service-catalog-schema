@@ -32,10 +32,7 @@ items:
             type: string
           interface:
             type: string
-            enum:
-            - public
-            - admin
-            - internal
+            enum: [public, admin, internal]
           region:
             description: This is being changed to region_id.
             type: string
@@ -47,18 +44,9 @@ items:
               The URL may contain the version, project (tenant) ID, or account
               ID.
             type: string
-        required:
-          - interface
-          - region
-          - url
-        optional:
-          - region_id
-          - id
+        required: [interface, region, url]
+        optional: [region_id, id]
         additionalProperties: false
-  required:
-    - type
-    - name
-    - endpoints
-  optional:
-    - id
+  required: [type, name, endpoints]
+  optional: [id]
   additionalProperties: false
