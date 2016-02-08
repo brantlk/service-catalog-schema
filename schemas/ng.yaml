@@ -1,0 +1,64 @@
+title: Next-Generation Service Catalog
+type: array
+items:
+  description: >
+    Additional properties are allowed for backwards-compatibility as
+    deployments move to the new format.
+  type: object
+  properties:
+    type:
+      description: >
+        Allowed service type values are defined in projects.yaml in the
+        openstack/governance repository. Examples are: identity, compute,
+        volume.
+      type: string
+      minLength: 1
+    name:
+      type: string
+      minLength: 1
+    id:
+      type: string
+      minLength: 1
+    endpoints:
+      type: array
+      items:
+        description: >
+          Additional properties are allowed for backwards-compatibility as
+          deployments move to the new format.
+        type: object
+        properties:
+          id:
+            type: string
+          interface:
+            type: string
+            enum:
+              - public
+              - admin
+              - internal
+          region:
+            description: >
+              This is being changed to region_id, but may still be present.
+            type: string
+          region_id:
+            description: newer, so not all clouds even report this.
+            type: string
+          url:
+            description: >
+              The URL does not contain the version, project (tenant) ID, or
+              account ID.
+            type: string
+        required:
+          - interface
+          - region
+          - url
+          - id
+        optional:
+          - region_id
+        additionalProperties: true
+  required:
+    - type
+    - id
+    - endpoints
+  optional:
+    - name
+  additionalProperties: true

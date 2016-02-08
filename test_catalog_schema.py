@@ -13,9 +13,10 @@
 import json
 
 import jsonschema
+import yaml
 
 
-V2_SCHEMA = json.load(open('schemas/v2.json'))
+V2_SCHEMA = yaml.safe_load(open('schemas/v2.yaml'))
 SAMPLE_v2_CATALOGS = [
     'devstack',
     'keystone',
@@ -41,7 +42,7 @@ for s in SAMPLE_v2_CATALOGS:
     jsonschema.validate(sample['serviceCatalog'], V2_SCHEMA)
 
 
-V3_SCHEMA = json.load(open('schemas/v3.json'))
+V3_SCHEMA = yaml.safe_load(open('schemas/v3.yaml'))
 SAMPLE_V3_CATALOGS = [
     'keystone',
     'mirantis',
@@ -55,7 +56,7 @@ for s in SAMPLE_V3_CATALOGS:
     jsonschema.validate(sample['catalog'], V3_SCHEMA)
 
 
-NG_SCHEMA = json.load(open('schemas/ng.json'))
+NG_SCHEMA = yaml.safe_load(open('schemas/ng.yaml'))
 SAMPLE_NG_CATALOGS = [
     'simple',
 ]
