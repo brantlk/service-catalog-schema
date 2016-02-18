@@ -1,54 +1,28 @@
 title: Next-Generation Service Catalog
-type: array
-items:
-  description: >
-    Additional properties are allowed for backwards-compatibility as
-    deployments move to the new format.
-  type: object
-  properties:
-    type:
-      description: >
-        Allowed service type values are defined in projects.yaml in the
-        openstack/governance repository. Examples are: identity, compute,
-        volume.
-      type: string
-      minLength: 1
-    name:
-      description: >
-        Service name: keystone, cinder, nova, etc.
-      type: string
-      minLength: 1
-    id:
-      type: string
-      minLength: 1
-    endpoints:
-      type: array
-      items:
-        description: >
-          Additional properties are allowed for backwards-compatibility as
-          deployments move to the new format.
+type: object
+description: key is the region ID, e.g., RegionOne
+patternProperties:
+  .+:
+    type: object
+    description: key is the service type, e.g., identity, nova, glance.
+    patternProperties:
+      .+:
         type: object
-        properties:
-          id:
-            type: string
-          interface:
-            type: string
-            enum: [public, admin, internal]
-          region:
-            description: >
-              This is being changed to region_id, but may still be present.
-            type: string
-          region_id:
-            description: newer, so not all clouds even report this.
-            type: string
-          url:
-            description: >
-              The URL does not contain the version, project (tenant) ID, or
-              account ID.
-            type: string
-        required: [interface, region, url, id]
-        optional: [region_id]
-        additionalProperties: true
-  required: [type, id, endpoints]
-  optional: [name]
-  additionalProperties: true
+        description: key is the version. "discovery" is used for version discovery.
+        patternProperties:
+          .+:
+            type: object
+            description: key is the interface, e.g., public, admin, internal.
+            properties:
+              public:
+                description: URL for the public endpoint. May be metered.
+                type: string
+              admin:
+                description: URL for the admin endpoint. May provide admin functions.
+                type: string
+              internal:
+                description: URL for the public endpoint. Probably unmetered.
+                type: string
+            required: [public]
+            additionalProperties: false
+        required: [discovery]

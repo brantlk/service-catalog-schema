@@ -1,31 +1,44 @@
 {
-  "catalog": [
-    {
-      "type": "identity",
-      "id": "cdc3ae8870af44698e722547d660355b",
-      "endpoints": [
-        {
-          "interface": "internal",
-          "region": "RegionOne",
-          "region_id": "RegionOne",
-          "url": "https://server/openstack/identity",
-          "id": "0e0b3d009aa04da0aee163e034dd6190"
+  "catalog": {
+    "RegionOne": {
+      "identity": {
+        "discovery": {
+          "public": "http://192.168.0.4:35357/",
+          "admin": "http://192.168.0.4:5000/"
         },
-        {
-          "interface": "admin",
-          "region": "RegionOne",
-          "region_id": "RegionOne",
-          "url": "https://server/openstack/identity_admin",
-          "id": "1024e233d9a4460d83292f151b405cf5"
+        "v2.0": {
+          "public": "http://192.168.0.4:35357/v2.0",
+          "admin": "http://192.168.0.4:5000/v2.0"
         },
-        {
-          "interface": "public",
-          "region": "RegionOne",
-          "region_id": "RegionOne",
-          "url": "https://server/openstack/identity",
-          "id": "1b4b82bb39b6487b8265748a6142104f"
+        "v3": {
+          "public": "http://192.168.0.4:35357/v3",
+          "admin": "http://192.168.0.4:5000/v3"
         }
-      ]
+      },
+      "compute": {
+        "discovery": {
+          "public": "http://192.168.0.4:8774/"
+        },
+        "v2": {
+          "public": "http://192.168.0.4:8774/v2"
+        }
+      },
+      "network": {
+        "discovery": {
+          "public": "http://192.168.0.4:9696/"
+        }
+      },
+      "volume": {
+        "discovery": {
+          "public": "http://192.168.0.4:8776"
+        },
+        "v1": {
+          "public": "http://192.168.0.4:8776/v1"
+        },
+        "v2": {
+          "public": "http://192.168.0.4:8776/v2"
+        }
+      }
     }
-  ]
+  }
 }
